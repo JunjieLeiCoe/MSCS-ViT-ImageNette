@@ -1,0 +1,11 @@
+From Scratch Training Log - 2026-03-20
+=======================================
+Best Val Acc: 41.50% (Epoch 2)
+Final Train Acc: 31.91% (Epoch 50)
+Final Val Acc: 30.65% (Epoch 50)
+Training Time: 296.2 min (~4.9 hours)
+Trainable Params: 85,806,346
+
+Note: Model peaked at epoch 2 (41.50%) then DEGRADED.
+By epoch 50, val accuracy was only 30.65% - worse than epoch 2.
+This demonstrates catastrophic instability of ViT without pretraining.

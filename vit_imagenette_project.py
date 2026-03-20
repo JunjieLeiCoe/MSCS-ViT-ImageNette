@@ -810,6 +810,7 @@ print("Creating ViT-specific visualizations...")
 # --- 1. Attention Map Heatmaps (using fine-tuned model) ---
 print("Generating attention map overlays...")
 
+model_finetuned.config.output_attentions = True
 model_finetuned.eval()
 
 fig, axes = plt.subplots(3, 6, figsize=(20, 10))
